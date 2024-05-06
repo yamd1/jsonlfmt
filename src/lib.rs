@@ -41,3 +41,8 @@ pub fn get_args() -> MyResult<Config> {
 
     Ok(Config { in_file, out_file })
 }
+
+#[test]
+pub fn stdio() {}
+
+type ResultA<T> = Result<Option<T>, Box<dyn Error>>;

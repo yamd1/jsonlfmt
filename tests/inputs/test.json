@@ -1,0 +1,12 @@
+{
+    "key_a": "value_a",
+    "key_b": "value_b",
+    "key_object": {
+        "key_c": "value_c"
+    },
+    "key_array": [
+        "value_1",
+        "value_2"
+    ],
+    "key_d": "value_d"
+}
